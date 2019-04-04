@@ -1,0 +1,21 @@
+.index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  .index_wrap {
+    width:300px;
+    height: 300px;
+    border-radius: 15px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .content {
+      font-size: 30px;
+    }
+  }
+
+}
